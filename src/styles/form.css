@@ -1,0 +1,51 @@
+.main{
+   margin: 0;
+   position: absolute;
+   top: 30%;
+   left: 40%;
+   text-align: left;
+}
+
+.main p.grey-element{
+   overflow-wrap: normal;
+   color: Gray;
+   width: 500px;
+}
+
+.main p.black-element{
+   overflow-wrap: normal;
+   width: 500px;
+   color: black;
+   font-family: 'Roboto', sans-serif;
+}
+
+.text-field{
+   position: relative;
+   bottom: 15px;
+   left: 15px;
+   width: 350px;
+}
+
+.text-area{
+   font-family: 'Roboto', sans-serif !important;
+}
+.title{
+   position: relative;
+   bottom: 100px;
+}
+
+.label{
+   font-size: 50px;
+}
+
+.return {
+   position: relative;
+   left: 220px;
+}
+
+@font-face {
+   font-family: 'Roboto', sans-serif;
+   src: local('Roboto-Light'), url(./fonts/Roboto/Roboto-Light.ttf) format('tff');
+   /* other formats include: 'woff2', 'truetype, 'opentype',
+                             'embedded-opentype', and 'svg' */
+ }
